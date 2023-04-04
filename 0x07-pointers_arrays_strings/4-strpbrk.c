@@ -6,7 +6,7 @@
  * @accept: The set of bytes to be searched for.
  * Return: new string.
  */
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept)
 {
 	unsigned int i, j;
 
